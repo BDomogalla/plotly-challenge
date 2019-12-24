@@ -1,7 +1,7 @@
 function buildPlots(name){
 	// Step 1: Plotly
 	// Use the D3 library to read in samples.json.
-	d3.json("../../data/samples.json").then(function(data){
+	d3.json("../data/samples.json").then(function(data){
 		
 		// Check for specified person in samples
 		data.samples.forEach(sample => {
